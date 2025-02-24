@@ -6,6 +6,7 @@ enemy = [8,1]
 size = 10
 render(size, pos, enemy)
 print("Первый Commit")
+print("Второй Commit")
 while True:
     print("Input a - left")
     print("Input d - right")
