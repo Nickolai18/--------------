@@ -9,7 +9,7 @@ def update(move, size, pos, enemy):
                 pos[1] = pos[1] - 1
                 render(size, pos, enemy)
         case 'd':
-            if pos[1] == 1 or pos[1] == (size - 2):
+            if pos[1] == (size - 2):
                 print("Ты не можешь двигаться в ту сторону")
                 render(size, pos, enemy)
             else:
