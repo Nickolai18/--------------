@@ -15,7 +15,7 @@ def render(size, pos, enemy):
                 elif i == x and j == y:
                     s[i].append('@')
                 elif i == xE and j == yE:
-                    s[i].append('E')
+                    s[i].append('e')
                 else:
                     s[i].append(' ')
-        print(s[i])
+    return s
