@@ -23,6 +23,7 @@ while True:
     if map[pos[0]][pos[1] - 1] == "e" or map[pos[0]][pos[1] + 1] == "e" or map[pos[0] - 1][pos[1]] == "e" or map[pos[0] + 1][pos[1]] == "e":
         print("Input e - attack")
     move = str(input())
+    print("\033[H\033[J", end="")
     if move == 'e':
         if enemyHealth == 0:
             map[enemy[0]][enemy[1]] = "x"
